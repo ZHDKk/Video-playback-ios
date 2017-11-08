@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <MediaPlayer/MediaPlayer.h>
 @interface ViewController : UIViewController
 
+{
+    //定义一个播放器对象
+    MPMoviePlayerController *_playerCtl;
+    
+    
+    //定义一个播放视图控制器
+    MPMoviePlayerViewController *_playView;
+}
 
 @end
 
